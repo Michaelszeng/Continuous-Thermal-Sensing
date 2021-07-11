@@ -3,8 +3,12 @@
 This is based on Thermal Face: https://github.com/maxbbraun/thermal-face
 
 Create a virtual environment and install the necessary dependencies:
- - pip3 install --index-url https://google-coral.github.io/py-repo/ tflite_runtim
- - pip3 install Pillow
+ - pip install --index-url https://google-coral.github.io/py-repo/ tflite_runtim
+ - pip install Pillow
+ - pip install opencv-python
+ - pip install numpy
+
+I had to install tflite using Anaconda, and thus used an Anaconda virtual environment for this project.
 
 
 **Inferencing:**
