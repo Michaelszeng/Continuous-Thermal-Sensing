@@ -1,3 +1,7 @@
+"""
+This was a test program that is no longer of use.
+"""
+
 import argparse
 import time
 import math
